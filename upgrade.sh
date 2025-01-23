@@ -54,10 +54,10 @@ find Projects -maxdepth 2 -type f -name '*.csproj' -print0 | \
         
         # Always invoke aider for review regardless of success/failure
         log "Running aider review for $csproj"
-        # Use absolute path for aider logging
-        (cd "$(dirname "$csproj")" && \
-        aider --env-file "$envfile" --message "Review upgrade-assistant output (exit code $exit_code) and apply necessary code changes" \
-          --read "${log_dir}/console.txt" 2>&1 | tee "$(pwd)/${log_dir}/aider.txt") || true
+        (log "Invoking aider for $csproj";
+         cd "$(dirname "$csproj")" && \
+         aider --env-file "$envfile" --message "Review upgrade-assistant output (exit code $exit_code) and apply necessary code changes" \
+           --read "${log_dir}/console.txt" 2>&1 | tee "${log_dir}/aider.txt") || true
         log "Aider review completed for $csproj - output in ${log_dir}/aider.txt"
     ' _ {} 
 
