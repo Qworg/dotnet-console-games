@@ -1,0 +1,1937 @@
+{
+  "settings": {
+    "components": {
+      "code": true,
+      "binaries": true
+    },
+    "targetId": "",
+    "targetDisplayName": ".NET 9.0"
+  },
+  "analysisStartTime": "2025-01-23T00:10:10.3594192Z",
+  "analysisEndTime": "2025-01-23T00:10:48.1002702Z",
+  "privacyMode": "Unrestricted",
+  "privacyModeHelpUrl": "https://go.microsoft.com/fwlink/?linkid=2270980",
+  "stats": {
+    "summary": {
+      "projects": 55,
+      "issues": 3,
+      "incidents": 89,
+      "effort": 89
+    },
+    "charts": {
+      "severity": {
+        "Mandatory": 55,
+        "Optional": 0,
+        "Potential": 34,
+        "Information": 0
+      },
+      "category": {
+        "Project": 55,
+        "NuGet": 3,
+        "Api": 31
+      }
+    }
+  },
+  "projects": [
+    {
+      "path": "Projects/2048/2048.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "5745b669-5199-49ce-97b0-a6935acf212b",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/2048/2048.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/2048/2048.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Battleship/Battleship.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "1b08441a-12bf-4c2e-aa10-e8a78ace8540",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Battleship/Battleship.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Battleship/Battleship.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Beep Pad/Beep Pad.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "8b3fb569-b7d7-4d6f-b68d-3fae71664c84",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Beep Pad/Beep Pad.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Beep Pad/Beep Pad.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Blackjack/Blackjack.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "32686ef8-601d-453b-a05c-57eee032ec98",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Blackjack/Blackjack.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Blackjack/Blackjack.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Bound/Bound.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "102dad42-8c93-4e96-9f96-2b75b7ba4b40",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Bound/Bound.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Bound/Bound.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Checkers/Checkers.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "130c4822-8354-4bc7-8055-c20acdae4d10",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Checkers/Checkers.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Checkers/Checkers.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Clicker/Clicker.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "aeb0b4fb-3fa4-40f8-a49c-ff37cd661356",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Clicker/Clicker.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Clicker/Clicker.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Connect 4/Connect 4.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "a5484d71-843d-4761-bce5-31d661661ddf",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Connect 4/Connect 4.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Connect 4/Connect 4.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Console Monsters/Console Monsters.csproj",
+      "startingProject": true,
+      "issues": 3,
+      "storyPoints": 17,
+      "ruleInstances": [
+        {
+          "incidentId": "1ed617c3-6878-4739-8f8e-b30f9dd7b986",
+          "ruleId": "NuGet.0002",
+          "projectPath": "Projects/Console Monsters/Console Monsters.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Console Monsters/Console Monsters.csproj",
+            "snippet": "System.Windows.Extensions, 7.0.0\n\nRecommendation:\n\nSystem.Windows.Extensions 9.0.1",
+            "protectedSnippet": "System.Windows.Extensions, 7.0.0\n\nRecommendation:\n\nSystem.Windows.Extensions 9.0.1",
+            "label": "System.Windows.Extensions 7.0.0"
+          }
+        },
+        {
+          "incidentId": "2aeae249-8a55-4572-b5ba-7a857e9d5f6a",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Console Monsters/Console Monsters.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Console Monsters/Console Monsters.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        },
+        {
+          "incidentId": "a6e597fa-0f1b-47b4-9d4d-4dbc4c6d9354",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Windows.Extensions, 9.0.0-preview.6.24302.3.",
+          "projectPath": "Projects/Console Monsters/Console Monsters.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Console Monsters/Audio/AudioController.cs",
+            "snippet": "soundPlayer.Stop();",
+            "protectedSnippet": "T:System.Media.SoundPlayer",
+            "label": "T:System.Media.SoundPlayer",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.media.soundplayer",
+                "isCustom": false
+              }
+            ],
+            "line": 67,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "927048f1-0498-4d12-bbc8-5ce3d137bf20",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Windows.Extensions, 9.0.0-preview.6.24302.3.",
+          "projectPath": "Projects/Console Monsters/Console Monsters.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Console Monsters/Audio/AudioController.cs",
+            "snippet": "soundPlayer.Stop();",
+            "protectedSnippet": "M:System.Media.SoundPlayer.Stop",
+            "label": "M:System.Media.SoundPlayer.Stop",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.media.soundplayer.stop",
+                "isCustom": false
+              }
+            ],
+            "line": 67,
+            "column": 6
+          }
+        },
+        {
+          "incidentId": "4074fbb4-3ec8-4e64-b5d7-e39abfad25b7",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Windows.Extensions, 9.0.0-preview.6.24302.3.",
+          "projectPath": "Projects/Console Monsters/Console Monsters.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Console Monsters/Audio/AudioController.cs",
+            "snippet": "if (soundPlayer is not null)\n\t\t\t\t{\n\t\t\t\t\ttry\n\t\t\t\t\t{\n\t\t\t\t\t\tsoundPlayer.Stop();\n\t\t\t\t\t}\n\t\t\t\t\tcatch\n\t\t\t\t\t{\n\t\t\t\t\t\t// intentionally left blank\n\t\t\t\t\t}\n\t\t\t\t}",
+            "protectedSnippet": "T:System.Media.SoundPlayer",
+            "label": "T:System.Media.SoundPlayer",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.media.soundplayer",
+                "isCustom": false
+              }
+            ],
+            "line": 63,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "43bdbb50-c0d2-4db6-9e76-0c761a3da9b4",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Windows.Extensions, 9.0.0-preview.6.24302.3.",
+          "projectPath": "Projects/Console Monsters/Console Monsters.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Console Monsters/Audio/AudioController.cs",
+            "snippet": "soundPlayer.PlayLooping();",
+            "protectedSnippet": "T:System.Media.SoundPlayer",
+            "label": "T:System.Media.SoundPlayer",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.media.soundplayer",
+                "isCustom": false
+              }
+            ],
+            "line": 44,
+            "column": 7
+          }
+        },
+        {
+          "incidentId": "6872fb72-763b-408c-82f6-884d2f2bd8fe",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Windows.Extensions, 9.0.0-preview.6.24302.3.",
+          "projectPath": "Projects/Console Monsters/Console Monsters.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Console Monsters/Audio/AudioController.cs",
+            "snippet": "soundPlayer.PlayLooping();",
+            "protectedSnippet": "M:System.Media.SoundPlayer.PlayLooping",
+            "label": "M:System.Media.SoundPlayer.PlayLooping",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.media.soundplayer.playlooping",
+                "isCustom": false
+              }
+            ],
+            "line": 44,
+            "column": 7
+          }
+        },
+        {
+          "incidentId": "44ac3832-a901-4b75-ad2b-38fb2a90aa6a",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Windows.Extensions, 9.0.0-preview.6.24302.3.",
+          "projectPath": "Projects/Console Monsters/Console Monsters.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Console Monsters/Audio/AudioController.cs",
+            "snippet": "soundPlayer.Stream = stream;",
+            "protectedSnippet": "T:System.Media.SoundPlayer",
+            "label": "T:System.Media.SoundPlayer",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.media.soundplayer",
+                "isCustom": false
+              }
+            ],
+            "line": 43,
+            "column": 7
+          }
+        },
+        {
+          "incidentId": "63488011-81ec-4818-90fe-469c9f7236b4",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Windows.Extensions, 9.0.0-preview.6.24302.3.",
+          "projectPath": "Projects/Console Monsters/Console Monsters.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Console Monsters/Audio/AudioController.cs",
+            "snippet": "soundPlayer.Stream = stream;",
+            "protectedSnippet": "P:System.Media.SoundPlayer.Stream",
+            "label": "P:System.Media.SoundPlayer.Stream",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.media.soundplayer.stream",
+                "isCustom": false
+              }
+            ],
+            "line": 43,
+            "column": 7
+          }
+        },
+        {
+          "incidentId": "fa29371d-a9e5-4e34-bf74-1f6063d64ef9",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Windows.Extensions, 9.0.0-preview.6.24302.3.",
+          "projectPath": "Projects/Console Monsters/Console Monsters.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Console Monsters/Audio/AudioController.cs",
+            "snippet": "if (soundPlayer is not null)\n\t\t\t\t{\n\t\t\t\t\tif (recoursePlaying != resourceName)\n\t\t\t\t\t{\n\t\t\t\t\t\tAssembly assembly = Assembly.GetExecutingAssembly();\n\t\t\t\t\t\tStream? stream = assembly.GetManifestResourceStream(resourceName);\n\t\t\t\t\t\tif (stream is null) throw new ArgumentException($\u0022the {nameof(resourceName)} embedded resource was not found\u0022);\n\t\t\t\t\t\ttry\n\t\t\t\t\t\t{\n\t\t\t\t\t\t\tsoundPlayer.Stream = stream;\n\t\t\t\t\t\t\tsoundPlayer.PlayLooping();\n\t\t\t\t\t\t}\n\t\t\t\t\t\tcatch\n\t\t\t\t\t\t{\n\t\t\t\t\t\t\t// intentionally left blank\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t}",
+            "protectedSnippet": "T:System.Media.SoundPlayer",
+            "label": "T:System.Media.SoundPlayer",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.media.soundplayer",
+                "isCustom": false
+              }
+            ],
+            "line": 34,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "3da1f135-82d4-4ed2-b256-7411688dacd3",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Windows.Extensions, 9.0.0-preview.6.24302.3.",
+          "projectPath": "Projects/Console Monsters/Console Monsters.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Console Monsters/Audio/AudioController.cs",
+            "snippet": "soundPlayer = new System.Media.SoundPlayer();",
+            "protectedSnippet": "T:System.Media.SoundPlayer",
+            "label": "T:System.Media.SoundPlayer",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.media.soundplayer",
+                "isCustom": false
+              }
+            ],
+            "line": 18,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "5b68836f-e8f3-4d91-9877-a73029a2fe6b",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Windows.Extensions, 9.0.0-preview.6.24302.3.",
+          "projectPath": "Projects/Console Monsters/Console Monsters.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Console Monsters/Audio/AudioController.cs",
+            "snippet": "soundPlayer = new System.Media.SoundPlayer();",
+            "protectedSnippet": "M:System.Media.SoundPlayer.#ctor",
+            "label": "M:System.Media.SoundPlayer.#ctor",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.media.soundplayer.soundplayer",
+                "isCustom": false
+              }
+            ],
+            "line": 18,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "bed66693-8c3c-47f4-b886-8a4c88610333",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Windows.Extensions, 9.0.0-preview.6.24302.3.",
+          "projectPath": "Projects/Console Monsters/Console Monsters.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Console Monsters/Audio/AudioController.cs",
+            "snippet": "soundPlayer = new System.Media.SoundPlayer();",
+            "protectedSnippet": "T:System.Media.SoundPlayer",
+            "label": "T:System.Media.SoundPlayer",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.media.soundplayer",
+                "isCustom": false
+              }
+            ],
+            "line": 18,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "29762814-9b46-4b7e-a3da-cb43c19f63ec",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Windows.Extensions, 9.0.0-preview.6.24302.3.",
+          "projectPath": "Projects/Console Monsters/Console Monsters.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Console Monsters/Audio/AudioController.cs",
+            "snippet": "soundPlayer",
+            "protectedSnippet": "T:System.Media.SoundPlayer",
+            "label": "T:System.Media.SoundPlayer",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.media.soundplayer",
+                "isCustom": false
+              }
+            ],
+            "line": 8,
+            "column": 51
+          }
+        },
+        {
+          "incidentId": "b50be979-6c34-43e4-8299-8aa4edb80fb6",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Windows.Extensions, 9.0.0-preview.6.24302.3.",
+          "projectPath": "Projects/Console Monsters/Console Monsters.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Console Monsters/Audio/AudioController.cs",
+            "snippet": "soundPlayer = new System.Media.SoundPlayer();",
+            "protectedSnippet": "T:System.Media.SoundPlayer",
+            "label": "T:System.Media.SoundPlayer",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.media.soundplayer",
+                "isCustom": false
+              }
+            ],
+            "line": 18,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "bce96ec6-be0a-43b7-9c95-d3340e6719ea",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Windows.Extensions, 9.0.0-preview.6.24302.3.",
+          "projectPath": "Projects/Console Monsters/Console Monsters.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Console Monsters/Audio/AudioController.cs",
+            "snippet": "soundPlayer = new System.Media.SoundPlayer();",
+            "protectedSnippet": "M:System.Media.SoundPlayer.#ctor",
+            "label": "M:System.Media.SoundPlayer.#ctor",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.media.soundplayer.soundplayer",
+                "isCustom": false
+              }
+            ],
+            "line": 18,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "94d50e52-a7ba-41b3-b9c3-03e707602e27",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Windows.Extensions, 9.0.0-preview.6.24302.3.",
+          "projectPath": "Projects/Console Monsters/Console Monsters.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Console Monsters/Audio/AudioController.cs",
+            "snippet": "soundPlayer = new System.Media.SoundPlayer();",
+            "protectedSnippet": "T:System.Media.SoundPlayer",
+            "label": "T:System.Media.SoundPlayer",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/system.media.soundplayer",
+                "isCustom": false
+              }
+            ],
+            "line": 18,
+            "column": 4
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Darts/Darts.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "43b9bdd8-b39c-4034-b699-5c69ae6fcaed",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Darts/Darts.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Darts/Darts.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Dice Game/Dice Game.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "11543cce-e03d-4e22-ab51-3704a4d941bc",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Dice Game/Dice Game.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Dice Game/Dice Game.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Draw/Draw.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "da59c131-0dca-4a17-8d7b-4b869dfb52e3",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Draw/Draw.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Draw/Draw.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Drive/Drive.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "1b1e19d2-4781-4ae5-8b9f-f4804e44e5dd",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Drive/Drive.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Drive/Drive.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Duck Hunt/Duck Hunt.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "d8a8f23c-6fbb-422b-add8-c762f90f99e4",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Duck Hunt/Duck Hunt.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Duck Hunt/Duck Hunt.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Fighter/Fighter.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "c9cbe194-03e8-44a5-a911-2a99a6751454",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Fighter/Fighter.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Fighter/Fighter.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/First Person Shooter/First Person Shooter.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "3206c13a-ee11-46f8-ac54-761c8f61ed15",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/First Person Shooter/First Person Shooter.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/First Person Shooter/First Person Shooter.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Flappy Bird/Flappy Bird.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "8ec5f6b4-6c36-4211-9a39-69364c980f01",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Flappy Bird/Flappy Bird.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Flappy Bird/Flappy Bird.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Flash Cards/Flash Cards.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "c400d17c-bc2d-4947-b5b6-e530364f12c4",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Flash Cards/Flash Cards.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Flash Cards/Flash Cards.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Gravity/Gravity.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "814f1c40-f646-4612-9319-03330c82e972",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Gravity/Gravity.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Gravity/Gravity.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Guess A Number/Guess A Number.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "e548ec5d-01f6-4ed9-8861-e0bc847d8a89",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Guess A Number/Guess A Number.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Guess A Number/Guess A Number.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Hangman/Hangman.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "28fae7e1-8839-4058-9089-2e1b6755ddad",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Hangman/Hangman.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Hangman/Hangman.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Helicopter/Helicopter.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "9e93b91d-8ec9-413c-a17e-e2c7a2e3e7d1",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Helicopter/Helicopter.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Helicopter/Helicopter.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Hurdles/Hurdles.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "e54252ea-fb21-4187-805f-b24cbf502f61",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Hurdles/Hurdles.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Hurdles/Hurdles.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Lights Out/Lights Out.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "2a986b4d-f1b5-43ef-b001-d7e3e2902b1c",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Lights Out/Lights Out.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Lights Out/Lights Out.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Mancala/Mancala.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "eec3fdcb-561d-4be1-9c15-28d268195be0",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Mancala/Mancala.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Mancala/Mancala.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Maze/Maze.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "d0ee5535-a3f7-40a1-b3b2-9b62c0748948",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Maze/Maze.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Maze/Maze.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Memory/Memory.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "56985f6c-d180-4fbd-941c-314c7cd87a60",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Memory/Memory.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Memory/Memory.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Minesweeper/Minesweeper.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "ff685f81-0a97-4bbf-8dc5-c7fdee5bc10f",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Minesweeper/Minesweeper.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Minesweeper/Minesweeper.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Oligopoly/Oligopoly.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "1235cdd0-5728-453f-9c91-35c5766735e8",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Oligopoly/Oligopoly.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Oligopoly/Oligopoly.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/PacMan/PacMan.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "e4d6c0c7-878e-4809-8900-62aa0a4b5a1e",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/PacMan/PacMan.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/PacMan/PacMan.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Pong/Pong.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "2eddd2e1-3fc0-4273-8c89-3e04a71085ff",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Pong/Pong.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Pong/Pong.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Quick Draw/Quick Draw.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "3a289d9f-8e92-422f-b25d-57d6c31cf52b",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Quick Draw/Quick Draw.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Quick Draw/Quick Draw.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Reversi/Reversi.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "6a658f96-f174-4d06-b040-ae895852e310",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Reversi/Reversi.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Reversi/Reversi.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Rock Paper Scissors/Rock Paper Scissors.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "3137c4b9-c2b8-47b0-ad3d-9a000a4aa76f",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Rock Paper Scissors/Rock Paper Scissors.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Rock Paper Scissors/Rock Paper Scissors.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Role Playing Game/Role Playing Game.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "2dd857aa-90f8-4844-ae75-44413cf9aedb",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Role Playing Game/Role Playing Game.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Role Playing Game/Role Playing Game.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Roll And Move/Roll And Move.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "96f85bb5-37e6-473f-bc71-085fc88ee0b7",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Roll And Move/Roll And Move.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Roll And Move/Roll And Move.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Rythm/Rythm.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "8c88338c-1331-4886-a77f-ad106555ff9b",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Rythm/Rythm.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Rythm/Rythm.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Shmup/Shmup.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "c960209e-59f3-40ac-b7bd-38ba31917e11",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Shmup/Shmup.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Shmup/Shmup.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Simon/Simon.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "1fb28e99-6822-4539-b42e-16443777d38e",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Simon/Simon.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Simon/Simon.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Sliding Puzzle/Sliding Puzzle.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "293559e4-a81c-4919-acd9-6e8acee61b81",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Sliding Puzzle/Sliding Puzzle.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Sliding Puzzle/Sliding Puzzle.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Snake/Snake.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "99d67e79-d1b6-4f92-8bb1-2d804c6854a2",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Snake/Snake.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Snake/Snake.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Sudoku/Sudoku.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "50fecb26-3ad8-4954-b3dc-b13f6c0bd2cf",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Sudoku/Sudoku.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Sudoku/Sudoku.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Tanks/Tanks.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "e9647948-7349-4664-8e6a-f02eef443745",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Tanks/Tanks.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Tanks/Tanks.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Tents/Tents.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "40bd28bf-7094-47d5-ad8f-f1fc8dec822c",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Tents/Tents.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Tents/Tents.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Tetris/Tetris.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "68514685-b5ba-4fed-9ee0-ca1f3736aadf",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Tetris/Tetris.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Tetris/Tetris.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Tic Tac Toe/Tic Tac Toe.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "dcf8a442-b2d4-4ff6-9d7d-2c35a1101b73",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Tic Tac Toe/Tic Tac Toe.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Tic Tac Toe/Tic Tac Toe.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Tower Of Hanoi/Tower Of Hanoi.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "ea544256-6fda-4573-ad13-f253b70da408",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Tower Of Hanoi/Tower Of Hanoi.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Tower Of Hanoi/Tower Of Hanoi.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Tug Of War/Tug Of War.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "734aa399-e872-4528-b661-2fa2bbb6871a",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Tug Of War/Tug Of War.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Tug Of War/Tug Of War.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Type/Type.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "33e781ca-199a-47cb-95ad-1c151321c773",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Type/Type.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Type/Type.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Website/Website.csproj",
+      "startingProject": true,
+      "issues": 3,
+      "storyPoints": 19,
+      "ruleInstances": [
+        {
+          "incidentId": "838454b6-aa1a-4bc2-ba0c-cffd20d69015",
+          "ruleId": "NuGet.0002",
+          "projectPath": "Projects/Website/Website.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Website/Website.csproj",
+            "snippet": "Microsoft.AspNetCore.Components.WebAssembly, 8.0.0\n\nRecommendation:\n\nMicrosoft.AspNetCore.Components.WebAssembly 9.0.1",
+            "protectedSnippet": "Microsoft.AspNetCore.Components.WebAssembly, 8.0.0\n\nRecommendation:\n\nMicrosoft.AspNetCore.Components.WebAssembly 9.0.1",
+            "label": "Microsoft.AspNetCore.Components.WebAssembly 8.0.0"
+          }
+        },
+        {
+          "incidentId": "399088af-0ebe-4ad4-9cb9-c879236663e0",
+          "ruleId": "NuGet.0002",
+          "projectPath": "Projects/Website/Website.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Website/Website.csproj",
+            "snippet": "Microsoft.AspNetCore.Components.WebAssembly.DevServer, 8.0.0\n\nRecommendation:\n\nMicrosoft.AspNetCore.Components.WebAssembly.DevServer 9.0.1",
+            "protectedSnippet": "Microsoft.AspNetCore.Components.WebAssembly.DevServer, 8.0.0\n\nRecommendation:\n\nMicrosoft.AspNetCore.Components.WebAssembly.DevServer 9.0.1",
+            "label": "Microsoft.AspNetCore.Components.WebAssembly.DevServer 8.0.0"
+          }
+        },
+        {
+          "incidentId": "e3f19221-d3cd-41b0-b958-3204e45ace52",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Website/Website.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Website/Website.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        },
+        {
+          "incidentId": "ed991322-ef1a-4313-b283-c6c3e62e845b",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.Components.WebAssembly, 9.0.0-preview.6.24281.4.",
+          "projectPath": "Projects/Website/Website.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Website/Program.cs",
+            "snippet": "await builder.Build().RunAsync();",
+            "protectedSnippet": "T:Microsoft.AspNetCore.Components.WebAssembly.Hosting.WebAssemblyHost",
+            "label": "T:Microsoft.AspNetCore.Components.WebAssembly.Hosting.WebAssemblyHost",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.webassembly.hosting.webassemblyhost",
+                "isCustom": false
+              }
+            ],
+            "line": 13,
+            "column": 0
+          }
+        },
+        {
+          "incidentId": "eaa2f58c-de6d-455a-933a-7807d6721f74",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.Components.WebAssembly, 9.0.0-preview.6.24281.4.",
+          "projectPath": "Projects/Website/Website.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Website/Program.cs",
+            "snippet": "await builder.Build().RunAsync();",
+            "protectedSnippet": "M:Microsoft.AspNetCore.Components.WebAssembly.Hosting.WebAssemblyHostBuilder.Build",
+            "label": "M:Microsoft.AspNetCore.Components.WebAssembly.Hosting.WebAssemblyHostBuilder.Build",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.webassembly.hosting.webassemblyhostbuilder.build",
+                "isCustom": false
+              }
+            ],
+            "line": 13,
+            "column": 0
+          }
+        },
+        {
+          "incidentId": "c131147a-69c6-4f91-bfc2-fd4acf249b06",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.Components.WebAssembly, 9.0.0-preview.6.24281.4.",
+          "projectPath": "Projects/Website/Website.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Website/Program.cs",
+            "snippet": "await builder.Build().RunAsync();",
+            "protectedSnippet": "M:Microsoft.AspNetCore.Components.WebAssembly.Hosting.WebAssemblyHost.RunAsync",
+            "label": "M:Microsoft.AspNetCore.Components.WebAssembly.Hosting.WebAssemblyHost.RunAsync",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.webassembly.hosting.webassemblyhost.runasync",
+                "isCustom": false
+              }
+            ],
+            "line": 13,
+            "column": 0
+          }
+        },
+        {
+          "incidentId": "8854b138-fa3f-42d2-afb6-be4c735d4990",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.Components.WebAssembly, 9.0.0-preview.6.24281.4.",
+          "projectPath": "Projects/Website/Website.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Website/Program.cs",
+            "snippet": "builder.Services.AddScoped(sp =\u003E new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });",
+            "protectedSnippet": "T:Microsoft.AspNetCore.Components.WebAssembly.Hosting.IWebAssemblyHostEnvironment",
+            "label": "T:Microsoft.AspNetCore.Components.WebAssembly.Hosting.IWebAssemblyHostEnvironment",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.webassembly.hosting.iwebassemblyhostenvironment",
+                "isCustom": false
+              }
+            ],
+            "line": 11,
+            "column": 0
+          }
+        },
+        {
+          "incidentId": "9e5eb307-f7ce-4dd9-886f-2f5be4884332",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.Components.WebAssembly, 9.0.0-preview.6.24281.4.",
+          "projectPath": "Projects/Website/Website.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Website/Program.cs",
+            "snippet": "builder.Services.AddScoped(sp =\u003E new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });",
+            "protectedSnippet": "P:Microsoft.AspNetCore.Components.WebAssembly.Hosting.WebAssemblyHostBuilder.HostEnvironment",
+            "label": "P:Microsoft.AspNetCore.Components.WebAssembly.Hosting.WebAssemblyHostBuilder.HostEnvironment",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.webassembly.hosting.webassemblyhostbuilder.hostenvironment",
+                "isCustom": false
+              }
+            ],
+            "line": 11,
+            "column": 0
+          }
+        },
+        {
+          "incidentId": "d1543dae-0cca-4e38-a25f-afaaf82c9d91",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.Components.WebAssembly, 9.0.0-preview.6.24281.4.",
+          "projectPath": "Projects/Website/Website.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Website/Program.cs",
+            "snippet": "builder.Services.AddScoped(sp =\u003E new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });",
+            "protectedSnippet": "P:Microsoft.AspNetCore.Components.WebAssembly.Hosting.IWebAssemblyHostEnvironment.BaseAddress",
+            "label": "P:Microsoft.AspNetCore.Components.WebAssembly.Hosting.IWebAssemblyHostEnvironment.BaseAddress",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.webassembly.hosting.iwebassemblyhostenvironment.baseaddress",
+                "isCustom": false
+              }
+            ],
+            "line": 11,
+            "column": 0
+          }
+        },
+        {
+          "incidentId": "732d3676-9d7b-434f-ac91-63c86c618313",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.Components.WebAssembly, 9.0.0-preview.6.24281.4.",
+          "projectPath": "Projects/Website/Website.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Website/Program.cs",
+            "snippet": "builder.Services.AddScoped(sp =\u003E new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });",
+            "protectedSnippet": "P:Microsoft.AspNetCore.Components.WebAssembly.Hosting.WebAssemblyHostBuilder.Services",
+            "label": "P:Microsoft.AspNetCore.Components.WebAssembly.Hosting.WebAssemblyHostBuilder.Services",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.webassembly.hosting.webassemblyhostbuilder.services",
+                "isCustom": false
+              }
+            ],
+            "line": 11,
+            "column": 0
+          }
+        },
+        {
+          "incidentId": "6430a685-a616-47bb-9299-434a2ca53c36",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.Components.WebAssembly, 9.0.0-preview.6.24281.4.",
+          "projectPath": "Projects/Website/Website.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Website/Program.cs",
+            "snippet": "builder.RootComponents.Add\u003CHeadOutlet\u003E(\u0022head::after\u0022);",
+            "protectedSnippet": "T:Microsoft.AspNetCore.Components.WebAssembly.Hosting.RootComponentMappingCollection",
+            "label": "T:Microsoft.AspNetCore.Components.WebAssembly.Hosting.RootComponentMappingCollection",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.webassembly.hosting.rootcomponentmappingcollection",
+                "isCustom": false
+              }
+            ],
+            "line": 9,
+            "column": 0
+          }
+        },
+        {
+          "incidentId": "ef6e7cf6-d238-42d6-abc6-e97bc90b7099",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.Components.WebAssembly, 9.0.0-preview.6.24281.4.",
+          "projectPath": "Projects/Website/Website.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Website/Program.cs",
+            "snippet": "builder.RootComponents.Add\u003CHeadOutlet\u003E(\u0022head::after\u0022);",
+            "protectedSnippet": "P:Microsoft.AspNetCore.Components.WebAssembly.Hosting.WebAssemblyHostBuilder.RootComponents",
+            "label": "P:Microsoft.AspNetCore.Components.WebAssembly.Hosting.WebAssemblyHostBuilder.RootComponents",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.webassembly.hosting.webassemblyhostbuilder.rootcomponents",
+                "isCustom": false
+              }
+            ],
+            "line": 9,
+            "column": 0
+          }
+        },
+        {
+          "incidentId": "2a6ee158-65d1-4301-8945-96928d0eaa73",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.Components.WebAssembly, 9.0.0-preview.6.24281.4.",
+          "projectPath": "Projects/Website/Website.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Website/Program.cs",
+            "snippet": "builder.RootComponents.Add\u003CHeadOutlet\u003E(\u0022head::after\u0022);",
+            "protectedSnippet": "M:Microsoft.AspNetCore.Components.WebAssembly.Hosting.RootComponentMappingCollection.Add\u0060\u00601(System.String)",
+            "label": "M:Microsoft.AspNetCore.Components.WebAssembly.Hosting.RootComponentMappingCollection.Add\u0060\u00601(System.String)",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.webassembly.hosting.rootcomponentmappingcollection.add",
+                "isCustom": false
+              }
+            ],
+            "line": 9,
+            "column": 0
+          }
+        },
+        {
+          "incidentId": "75bfc6fe-24b5-4f08-93d3-dd0bab29aebc",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.Components.WebAssembly, 9.0.0-preview.6.24281.4.",
+          "projectPath": "Projects/Website/Website.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Website/Program.cs",
+            "snippet": "builder.RootComponents.Add\u003CApp\u003E(\u0022#app\u0022);",
+            "protectedSnippet": "T:Microsoft.AspNetCore.Components.WebAssembly.Hosting.RootComponentMappingCollection",
+            "label": "T:Microsoft.AspNetCore.Components.WebAssembly.Hosting.RootComponentMappingCollection",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.webassembly.hosting.rootcomponentmappingcollection",
+                "isCustom": false
+              }
+            ],
+            "line": 8,
+            "column": 0
+          }
+        },
+        {
+          "incidentId": "c68a24dc-143d-4e67-ad27-17902fb9774d",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.Components.WebAssembly, 9.0.0-preview.6.24281.4.",
+          "projectPath": "Projects/Website/Website.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Website/Program.cs",
+            "snippet": "builder.RootComponents.Add\u003CApp\u003E(\u0022#app\u0022);",
+            "protectedSnippet": "P:Microsoft.AspNetCore.Components.WebAssembly.Hosting.WebAssemblyHostBuilder.RootComponents",
+            "label": "P:Microsoft.AspNetCore.Components.WebAssembly.Hosting.WebAssemblyHostBuilder.RootComponents",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.webassembly.hosting.webassemblyhostbuilder.rootcomponents",
+                "isCustom": false
+              }
+            ],
+            "line": 8,
+            "column": 0
+          }
+        },
+        {
+          "incidentId": "28049c3f-2eab-4523-b04c-ffa8eb4904c4",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.Components.WebAssembly, 9.0.0-preview.6.24281.4.",
+          "projectPath": "Projects/Website/Website.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Website/Program.cs",
+            "snippet": "builder.RootComponents.Add\u003CApp\u003E(\u0022#app\u0022);",
+            "protectedSnippet": "M:Microsoft.AspNetCore.Components.WebAssembly.Hosting.RootComponentMappingCollection.Add\u0060\u00601(System.String)",
+            "label": "M:Microsoft.AspNetCore.Components.WebAssembly.Hosting.RootComponentMappingCollection.Add\u0060\u00601(System.String)",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.webassembly.hosting.rootcomponentmappingcollection.add",
+                "isCustom": false
+              }
+            ],
+            "line": 8,
+            "column": 0
+          }
+        },
+        {
+          "incidentId": "fcf0aa25-ba0e-4af2-be21-d9f3c86b6aed",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.Components.WebAssembly, 9.0.0-preview.6.24281.4.",
+          "projectPath": "Projects/Website/Website.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Website/Program.cs",
+            "snippet": "var builder = WebAssemblyHostBuilder.CreateDefault(args);",
+            "protectedSnippet": "T:Microsoft.AspNetCore.Components.WebAssembly.Hosting.WebAssemblyHostBuilder",
+            "label": "T:Microsoft.AspNetCore.Components.WebAssembly.Hosting.WebAssemblyHostBuilder",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.webassembly.hosting.webassemblyhostbuilder",
+                "isCustom": false
+              }
+            ],
+            "line": 7,
+            "column": 0
+          }
+        },
+        {
+          "incidentId": "1572d138-6a55-4e89-872e-a1de325ac389",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.Components.WebAssembly, 9.0.0-preview.6.24281.4.",
+          "projectPath": "Projects/Website/Website.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Website/Program.cs",
+            "snippet": "var builder = WebAssemblyHostBuilder.CreateDefault(args);",
+            "protectedSnippet": "T:Microsoft.AspNetCore.Components.WebAssembly.Hosting.WebAssemblyHostBuilder",
+            "label": "T:Microsoft.AspNetCore.Components.WebAssembly.Hosting.WebAssemblyHostBuilder",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.webassembly.hosting.webassemblyhostbuilder",
+                "isCustom": false
+              }
+            ],
+            "line": 7,
+            "column": 0
+          }
+        },
+        {
+          "incidentId": "2d647d92-a533-4743-8638-1e07d8ac7fa8",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.Components.WebAssembly, 9.0.0-preview.6.24281.4.",
+          "projectPath": "Projects/Website/Website.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Website/Program.cs",
+            "snippet": "var builder = WebAssemblyHostBuilder.CreateDefault(args);",
+            "protectedSnippet": "M:Microsoft.AspNetCore.Components.WebAssembly.Hosting.WebAssemblyHostBuilder.CreateDefault(System.String[])",
+            "label": "M:Microsoft.AspNetCore.Components.WebAssembly.Hosting.WebAssemblyHostBuilder.CreateDefault(System.String[])",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.webassembly.hosting.webassemblyhostbuilder.createdefault",
+                "isCustom": false
+              }
+            ],
+            "line": 7,
+            "column": 0
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Whack A Mole/Whack A Mole.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "11ed11cb-e136-44e1-bbd4-e5a97825f475",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Whack A Mole/Whack A Mole.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Whack A Mole/Whack A Mole.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Word Search/Word Search.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "1e40b060-8ad4-4bf0-8174-a15656b3f627",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Word Search/Word Search.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Word Search/Word Search.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Wordle/Wordle.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "b6303e0f-41fa-4632-8708-cf37aa59b2ff",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Wordle/Wordle.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Wordle/Wordle.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Wumpus World/Wumpus World.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "0d805036-f99b-4939-8452-dc6639769250",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Wumpus World/Wumpus World.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Wumpus World/Wumpus World.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Projects/Yahtzee/Yahtzee.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "f09917e2-e748-4a2f-8d21-3d8ed72daed3",
+          "ruleId": "Project.0002",
+          "projectPath": "Projects/Yahtzee/Yahtzee.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Projects/Yahtzee/Yahtzee.csproj",
+            "snippet": "Current: net8.0\nNew: net9.0",
+            "protectedSnippet": "Current: net8.0\nNew: net9.0"
+          }
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "Project.0002": {
+      "id": "Project.0002",
+      "description": "Project\u0027s target framework(s) needs to be changed to the new target framework that you selected for this upgrade.\n\nDuring upgrade target framework will be adjusted to corresponding platform when applicable. In some cases project would result in multiple target frameworks after the upgrade if it was using features that now have their own platforms in moderrn .NET frameworks (windows, iOS, Android etc).",
+      "label": "Project\u0027s target framework(s) needs to be changed",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Overview of porting from .NET Framework to .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227",
+          "isCustom": false
+        },
+        {
+          "title": ".NET project SDKs",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265226",
+          "isCustom": false
+        }
+      ]
+    },
+    "NuGet.0002": {
+      "id": "NuGet.0002",
+      "description": "NuGet package upgrade is recommended for selected target framework.\n\nStandard .NET packages are recommended to have versions matching version of .NET that project targets.\n\nSome other packages also are known to work better for selected target frameworks.",
+      "label": "NuGet package upgrade is recommended",
+      "severity": "Potential",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262530",
+          "isCustom": false
+        }
+      ]
+    },
+    "Api.0002": {
+      "id": "Api.0002",
+      "description": "Some API that lived in older versions of .NET frameworks were moved to standalone NuGet packages that could be added to projects explicitly.",
+      "label": "API available in NuGet package",
+      "severity": "Potential",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Breaking changes in .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262679",
+          "isCustom": false
+        }
+      ]
+    }
+  }
+}
