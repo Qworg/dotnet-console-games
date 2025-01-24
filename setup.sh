@@ -1,5 +1,20 @@
 #!/bin/bash
 
+# Check for required tools
+required_commands=("jq" "dotnet" "upgrade-assistant" "aider")
+for cmd in "${required_commands[@]}"; do
+    if ! command -v $cmd &> /dev/null; then
+        echo "Error: $cmd is required but not installed"
+        exit 1
+    fi
+done
+
+# Verify dotnet SDK version
+if ! dotnet --list-sdks | grep -q '9\.0'; then
+    echo "Error: .NET 9.0 SDK is required"
+    exit 1
+fi
+
 envfile=$(readlink -f ../.env)
 rootfolder=$PWD
 
