@@ -1,4 +1,16 @@
 #!/bin/bash
 
-# Find all .csproj files in the repository and print their full paths
-find . -type f -name "*.csproj" -exec readlink -f {} \;
+# Find all .csproj files in the repository and run upgrade analysis
+find . -type f -name "*.csproj" -print0 | while IFS= read -r -d '' csproj; do
+    dir=$(dirname "$csproj")
+    mkdir -p "$dir/reports"
+    echo "Analyzing $dir"
+    upgrade-assistant analyze --non-interactive \
+        --source "$dir" \
+        -f net9.0 \
+        -r "$dir/report.json" \
+        --serializer JSON \
+        --code \
+        --binaries \
+        --privacyMode Unrestricted
+done
