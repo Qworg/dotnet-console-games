@@ -74,5 +74,6 @@ find . -type f -name "*.csproj" -print0 | while IFS= read -r -d '' csproj; do
     # Clean up the temporary folder
     rm -rf "$temp_folder"
     unset temp_folder
+    unset dir
     cd $rootfolder
 done

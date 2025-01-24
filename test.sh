@@ -9,7 +9,7 @@ if [ $? -eq 0 ]; then
     if [ -n "$SOURCE_JSON" ]; then
         cp -v "$SOURCE_JSON" currentchunk.json
     else
-        echo "Error: No .json found in temp_folder"
+        echo "Error: No json found in temp_folder"
         exit 1
     fi
 else
