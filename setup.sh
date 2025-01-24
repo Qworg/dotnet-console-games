@@ -5,7 +5,7 @@ find . -type f -name "*.csproj" -print0 | while IFS= read -r -d '' csproj; do
     dir=$(readlink -f "$(dirname "$csproj")")
     echo "Analyzing $dir"
     upgrade-assistant analyze --non-interactive \
-        --source "$dir/" \
+        --source "$(readlink -f "$csproj")" \
         -f net9.0 \
         -r "$dir/report.json" \
         --serializer JSON \
