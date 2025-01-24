@@ -79,7 +79,7 @@ find . -type f -name "*.csproj" -print0 | while IFS= read -r -d '' csproj; do
     cp $chunk_file currentchunk.json
     rm $chunk_file
     # Construct the command
-    cmd="aider --gitignore --architect --no-show-model-warnings --no-check-update --no-show-release-notes --yes-always --no-suggest-shell-commands --auto-test --test-cmd \"$rootfolder/test.sh\" --env-file=$envfile --file *.csproj --edit-format diff --read currentchunk.json"
+    cmd="aider --gitignore --architect --no-show-model-warnings --no-check-update --no-show-release-notes --yes-always --no-suggest-shell-commands --auto-test --test-cmd \"$rootfolder/test.sh\" --env-file=$envfile --file \"$(readlink -f "$csproj")\" --edit-format diff --read currentchunk.json"
 
     # Print the command (for debugging purposes)
     echo "Running command: $cmd"
