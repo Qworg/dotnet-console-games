@@ -2,7 +2,7 @@
 
 # Find all .csproj files in the repository and run upgrade analysis
 find . -type f -name "*.csproj" -print0 | while IFS= read -r -d '' csproj; do
-    dir=$(dirname "$csproj")
+    dir=$(readlink -f "$(dirname "$csproj")")
     echo "Analyzing $dir"
     upgrade-assistant analyze --non-interactive \
         --source "$dir/" \
