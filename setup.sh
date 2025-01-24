@@ -73,7 +73,7 @@ find . -type f -name "*.csproj" -print0 | while IFS= read -r -d '' csproj; do
     echo "Filtered ruleInstances have been split into chunks and saved in the '$temp_folder' folder."
 
     # Step 4: For each chunk, run the command
-    chunk_file = find "$temp_folder" -maxdepth 1 -type f -name '*.json' -print -quit
+    chunk_file=$(find "$temp_folder" -maxdepth 1 -type f -name '*.json' -print -quit)
     echo "Processing $chunk_file"
     export temp_folder
     cp $chunk_file currentchunk.json
