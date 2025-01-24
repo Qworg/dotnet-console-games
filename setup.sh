@@ -19,6 +19,7 @@ find . -type f -name "*.csproj" -print0 | while IFS= read -r -d '' csproj; do
         "$(readlink -f "$csproj")"
     
     cd $dir
+    export dir
     # Filter the data to incidents whose severity is Mandatory
     # Hardcoded input filename
     input_file="report.json"
@@ -60,9 +61,9 @@ find . -type f -name "*.csproj" -print0 | while IFS= read -r -d '' csproj; do
     chunk_file=find "$temp_folder" -maxdepth 1 -type f -name '*.json' -print -quit
     echo "Processing $chunk_file"
     export temp_folder
-    export chunk_file
+    cp $chunk_file currentchunk.json
     # Construct the command
-    cmd="aider --gitignore --architect --no-show-model-warnings --no-check-update --no-show-release-notes --yes-always --no-suggest-shell-commands --auto-test --test-cmd \"$PWD/test.sh\" --env-file=$envfile --file *.csproj --edit-format diff --read \"$chunk_file\""
+    cmd="aider --gitignore --architect --no-show-model-warnings --no-check-update --no-show-release-notes --yes-always --no-suggest-shell-commands --auto-test --test-cmd \"$PWD/test.sh\" --env-file=$envfile --file *.csproj --edit-format diff --read currentchunk.json --write chunk.json --report-json report.json --report-compact-json report_compact.json --report-md report.md -- ./"
 
     # Print the command (for debugging purposes)
     echo "Running command: $cmd"
