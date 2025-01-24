@@ -73,13 +73,13 @@ find . -type f -name "*.csproj" -print0 | while IFS= read -r -d '' csproj; do
     echo "Filtered ruleInstances have been split into chunks and saved in the '$temp_folder' folder."
 
     # Step 4: For each chunk, run the command
-    chunk_file=find "$temp_folder" -maxdepth 1 -type f -name '*.json' -print -quit
+    chunk_file = find "$temp_folder" -maxdepth 1 -type f -name '*.json' -print -quit
     echo "Processing $chunk_file"
     export temp_folder
     cp $chunk_file currentchunk.json
     rm $chunk_file
     # Construct the command
-    cmd="aider --gitignore --architect --no-show-model-warnings --no-check-update --no-show-release-notes --yes-always --no-suggest-shell-commands --auto-test --test-cmd \"$PWD/test.sh\" --env-file=$envfile --file *.csproj --edit-format diff --read currentchunk.json --write chunk.json --report-json report.json --report-compact-json report_compact.json --report-md report.md -- ./"
+    cmd="aider --gitignore --architect --no-show-model-warnings --no-check-update --no-show-release-notes --yes-always --no-suggest-shell-commands --auto-test --test-cmd \"$rootfolder/test.sh\" --env-file=$envfile --file *.csproj --edit-format diff --read currentchunk.json"
 
     # Print the command (for debugging purposes)
     echo "Running command: $cmd"
